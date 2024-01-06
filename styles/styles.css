@@ -9,13 +9,13 @@
   text-align: center;
 }
 
-/* Settings for the block header */
+/* Settings for the block "header" */
 
 .header {
   display: flex;
   flex-direction: row;
   /* justify-content: space-between; */
-  gap: 397px;
+  gap: 297px;
   padding: 40px 56px 1px 56px;
 }
 
@@ -32,13 +32,16 @@
 
 .header__logo-title {
   font-size: 32px;
+  font-weight: 500;
+}
+.header__navigation {
+  padding-top: 7px;
 }
 
 .header__navigation-list {
   display: flex;
   gap: 40px;
   list-style: none;
-  font-size: 20px;
 }
 
 .header__navigation-list a {
@@ -46,13 +49,19 @@
 }
 
 .header__navigation-list-item {
+  font-size: 18px;
+  font-weight: 300;
+  letter-spacing: -0.4px;
 }
 
 .header__navigation-list-item-special {
   color: #71a894;
+  font-size: 18px;
+  font-weight: 300;
+  letter-spacing: -0.4px;
 }
 
-/* Settings for the block cover */
+/* Settings for the block "cover" */
 
 .cover {
   display: flex;
@@ -70,12 +79,16 @@
 }
 
 .cover__title {
+  font-family: "Gravitas One", serif;
+  color: #303031;
+  font-weight: 400;
   font-size: 64px;
 }
 
 .cover__text {
   color: #66645e;
   font-size: 24px;
+  font-weight: 200;
 }
 
 .cover__button {
@@ -88,10 +101,96 @@
   width: 219px;
   height: 64px;
   background-color: #71a894;
-  padding: 20px 24px;
+  padding: 20px;
 }
 
-/* Settings for the block footer */
+/* Settings for the block "teams" */
+
+.teams__title {
+  font-size: 28px;
+  font-family: "Gravitas One", serif;
+  color: #303031;
+  text-align: center;
+  padding-bottom: 24px;
+  padding-top: 185px;
+}
+
+.teams__text {
+  text-align: center;
+  color: #303031;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 26px; /* 144.444% */
+  padding-left: 200px;
+  padding-right: 200px;
+  letter-spacing: -0.36px;
+}
+
+.teams__cards {
+  display: grid;
+  grid-template-columns: repeat(3, 427px);
+  grid-column-gap: 20px;
+  padding-top: 48px;
+  padding-left: 56px;
+  padding-right: 56px;
+}
+
+.teams__cards-list {
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+  list-style: none;
+}
+
+.teams__cards-list-item {
+  border-radius: 8px;
+  box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.1);
+}
+
+.teams__cards-list-item-image-block {
+  display: flex;
+  padding: 64px 161px 24px 162px;
+  flex-shrink: 0;
+}
+
+.teams__cards-list-item-image {
+  width: 104px;
+  height: 88px;
+}
+
+.teams__cards-list-item-title {
+  padding-left: 88px;
+  padding-right: 89px;
+  padding-bottom: 16px;
+}
+.teams__cards-list-item-text {
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-bottom: 64px;
+}
+
+/* Settings for the block "kickstart" */
+
+.kickstart {
+  display: flex;
+  flex-direction: row;
+  gap: 120px;
+  padding-left: 56px;
+  padding-right: 120px;
+  padding-top: 180px;
+}
+
+.kickstart__information-block {
+  display: flex;
+  width: 644px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 24px;
+}
+
+/* Settings for the block "footer" */
 
 .footer {
   display: flex;
