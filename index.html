@@ -18,6 +18,18 @@
       href="https://fonts.googleapis.com/css2?family=Gravitas+One&family=Rakkas&display=swap"
       rel="stylesheet"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&family=DM+Sans:ital,opsz,wght@0,9..40,200;0,9..40,400;1,9..40,200;1,9..40,300&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200;300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header class="header content-section">
@@ -129,7 +141,7 @@
         </ul>
       </section>
       <section class="kickstart content-section">
-        <div class="kickstart__information-block">
+        <article class="kickstart__information-block">
           <span class="kickstart__image-block">
             <img
               src="./images/Icon-kickstart-block.svg"
@@ -146,14 +158,189 @@
             about and have a potential solution for. You’re ready to embark the
             startup journey.
           </p>
-        </div>
-        <div class="kickstart__members-block">
-          <h3 class="kickstart__members-block-title">Members</h3>
+        </article>
+        <div class="kickstart__block-with-members">
+          <div class="kickstart__members-block">
+            <h3 class="kickstart__members-block__title">Members</h3>
+            <ul class="kickstart__members-block__list">
+              <li class="kickstart__members-block__member">
+                <img
+                  src="./images/Dillon Kydd 1.jpg"
+                  alt="Image of Dillon Kydd"
+                  class="kickstart__members-block__image-of-member"
+                />
+                <div>
+                  <h4
+                    class="kickstart__members-block__member__information-name"
+                  >
+                    Dillon Kydd
+                  </h4>
+                  <p
+                    class="kickstart__members-block__member__information-shares"
+                  >
+                    100 SHARES
+                  </p>
+                </div>
+              </li>
+              <li class="kickstart__members-block__member">
+                <img
+                  src="./images/Anna Olsen 1.jpg"
+                  alt="Image of Anna Olsen"
+                  class="kickstart__members-block__image-of-member"
+                />
+                <div class="kickstart__members-block__member__information">
+                  <h4
+                    class="kickstart__members-block__member__information-name"
+                  >
+                    Anna Olsen
+                  </h4>
+                  <p
+                    class="kickstart__members-block__member__information-shares"
+                  >
+                    100 SHARES
+                  </p>
+                </div>
+              </li>
+              <li class="kickstart__members-block__member">
+                <img
+                  src="./images/Kas-Moss-01.jpg"
+                  alt="Image of Kas Moss"
+                  class="kickstart__members-block__image-of-member"
+                />
+                <div>
+                  <h4
+                    class="kickstart__members-block__member__information-name"
+                  >
+                    Kas Moss
+                  </h4>
+                  <p
+                    class="kickstart__members-block__member__information-shares"
+                  >
+                    100 SHARES
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="kickstart__empty-green-block"></div>
         </div>
       </section>
-      <section>
-        <h2 class="block-title">Help us improve Open Enterprise</h2>
+      <section class="onboard content-section">
+        <article class="onboard__member-block">
+          <div class="onboard__member-block__personal-information">
+            <img
+              src=""
+              alt="Photo of Jassir Jonis"
+              class="onboard__member-block__image"
+            />
+            <div>
+              <h3 class="onboard__member-block__name">Jassir Jonis</h3>
+              <p class="onboard__member-block__position">
+                Pre-seed angel investor
+              </p>
+            </div>
+          </div>
+          <p class="onboard__member-block__about">
+            Hey guys, love what you’re doing and I’m convinced that together
+            we’ll achieve amazing things.
+          </p>
+          <div class="onboard__member-block__commits-and-shares">
+            <div>
+              <h4>COMMIT</h4>
+              <p>10,000 DAI</p>
+            </div>
+            <div>
+              <h4>SHARES</h4>
+              <p>20</p>
+            </div>
+          </div>
+          <button class="onboard__member-block__button">Go to vote</button>
+        </article>
+        <div class="onboard__main-block">
+          <img
+            src="./images/Icon-onboard.svg"
+            alt="Icon for onboard block info"
+            class="onboard__main-block__image"
+          />
+          <h2 class="onboard__title">
+            Onboard users, investors and advisors as you grow
+          </h2>
+          <p class="onboard__text">
+            You’ve bootstrapped and delivered an MVP, and some investors and
+            advisors are interested in having a chat with you. As an Open
+            Enterprise, you can onboard them seamlessly into your digital
+            organization and align them with your success.
+          </p>
+        </div>
       </section>
+      <section class="attraction content-section">
+        <div class="attraction__main-block">
+          <img
+            src="./images/Icon-attraction.svg"
+            alt="icon for onboard block"
+            class="attraction__main-block__image"
+          />
+          <h2 class="attraction__title">
+            Engage highly committed contributors
+          </h2>
+          <p class="attraction__text">
+            You need talented people on-demand across various tasks that your
+            full-time workforce can’t prioritize at the moment. As an Open
+            Enterprise, you can easily fund tasks and have people apply to work
+            on them in return for funds or shares.
+          </p>
+        </div>
+        <div class="attraction__articles">
+          <article class="attraction__articles__how-to">
+            <div class="attraction__articles__how-to__title-block">
+              <h3 class="attraction__articles__how-to__title">
+                Write a how-to on Open Enterprise
+              </h3>
+              <span class="attraction__articles__how-to__title-share"
+                >1 SHARE</span
+              >
+            </div>
+            <p class="attraction__articles__how-to__text">
+              Looking for an amazing copywriter using Open Enterprise to help us
+              write an article on how to get started.
+            </p>
+            <div class="attraction__green-block"></div>
+          </article>
+          <article class="attraction__articles__applicants">
+            <h3 class="attraction__articles__applicants-title">3 APPLICANTS</h3>
+            <ul class="attraction__articles__applicants-list">
+              <li class="attraction__articles__applicants-member">
+                <h4>Jason Kwon</h4>
+              </li>
+              <li class="attraction__articles__applicants-member">
+                <h4>Alex Rose</h4>
+              </li>
+              <li class="attraction__articles__applicants-member">
+                <h4>Lizzie Ulrich</h4>
+              </li>
+            </ul>
+          </article>
+          <article class="attraction__articles__writer">
+            <span class="attraction__articles__writer__image-span">
+              <img
+                src=""
+                alt="Photo of writer"
+                class="attraction__articles__writer-image"
+              />
+            </span>
+            <div class="attraction__articles__writer-name">
+              <h4>Alex Rose</h4>
+              <p>UX Writer</p>
+            </div>
+            <div class="attraction__articles__writer-rating">
+              <p>4 commits</p>
+              <img src="" alt="Star of rating" />
+            </div>
+            <button>View profile</button>
+          </article>
+        </div>
+      </section>
+      <section></section>
     </main>
     <footer class="footer">
       <span>Open Enterprise</span>
