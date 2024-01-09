@@ -50,14 +50,14 @@
 
 .header__navigation-list-item {
   font-size: 18px;
-  font-weight: 300;
+  font-weight: 500;
   letter-spacing: -0.4px;
 }
 
 .header__navigation-list-item-special {
   color: #71a894;
   font-size: 18px;
-  font-weight: 300;
+  font-weight: 500;
   letter-spacing: -0.4px;
 }
 
@@ -497,7 +497,7 @@
   display: flex;
   flex-direction: column;
   gap: 24px;
-  padding: 32px 40px;
+  padding: 32px 29px;
   border: 4px solid black;
   border-radius: 16px;
   background-color: #f3f0ea;
@@ -511,20 +511,183 @@
   list-style: none;
 }
 
+.attraction__articles__applicants-member {
+  font-family: "Roboto Mono", monospace;
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+}
+
+.attraction__articles__applicants-member__image-jason-kwon {
+  width: 40px;
+  height: 40px;
+  flex-shrink: 0;
+  border-radius: 50%;
+  background-image: url("/images/jason-kwon.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.attraction__articles__applicants-member__jason-kwon {
+  /* padding-right: 6px; */
+  padding-top: 4px;
+  padding-left: 8px;
+  padding-right: -1px;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: -0.4px;
+}
+
+.attraction__articles__applicants-member__image-alex-rose {
+  width: 40px;
+  height: 40px;
+  flex-shrink: 0;
+  border-radius: 50%;
+  background-image: url("/images/alex-rose.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.attraction__articles__applicants-member__image-lizzie-ulrich {
+  width: 40px;
+  height: 40px;
+  flex-shrink: 0;
+  border-radius: 50%;
+  background-image: url("/images/lizzie-ulrich.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.attraction__articles__applicants-member__alex-rose {
+  padding-top: 4px;
+  padding-left: 8px;
+  padding-right: 20px;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: -0.4px;
+}
+
+.attraction__articles__applicants-member__lizzie-ulrich {
+  padding-top: 4px;
+  padding-left: 8px;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: -0.4px;
+}
+
+.attraction__articles__applicants-member__star {
+  padding-left: 60px;
+}
+
+.attraction__articles__applicants-member__star_j-k {
+  padding-left: 70px;
+}
+
+.attraction__articles__applicants-member__star-l-u {
+  padding-left: 39px;
+}
+
+.attraction__articles__applicants-member__star-image {
+  width: 24px;
+  height: 24px;
+}
+
+.attraction__articles__applicants-member__rating {
+  font-family: "Roboto Mono", monospace;
+  font-size: 19px;
+  font-weight: 500;
+}
+
 .attraction__articles__writer {
+  font-family: "Roboto Mono", monospace;
   margin-top: 20px;
-  padding: 24px;
+  padding: 20px;
   grid-column-start: 8;
   grid-column-end: 12;
   grid-row-start: 8;
-  grid-row-end: 11;
+  grid-row-end: 10;
   display: flex;
   flex-direction: column;
+  gap: 16px;
   border: 4px solid #71a894;
   border-radius: 16px;
   z-index: 1;
 }
 
+.attraction__articles__writer__image-span {
+  width: 75px;
+  height: 77px;
+  padding-right: 75px;
+  padding-left: 38px;
+  padding-bottom: 16px;
+  /* padding: 24px 85px 16px 83px; */
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.attraction__articles__writer-image {
+  width: 75px;
+  height: 77px;
+  border-radius: 50%;
+}
+
+.attraction__articles__writer-name h4 {
+  font-size: 18px;
+  text-align: center;
+  /* padding-left: 32px;
+  padding-right: 32px; */
+}
+
+.attraction__articles__writer-name p {
+  color: #66645e;
+  font-weight: 400;
+  text-align: center;
+}
+
+.attraction__articles__writer-rating {
+  display: flex;
+  flex-direction: row;
+  padding-top: 12px;
+}
+
+.attraction__articles__writer-rating p {
+  font-size: 14px;
+  padding-top: 5px;
+  color: #66645e;
+  font-weight: 400;
+}
+
+.attraction__articles__writer-rating__star {
+  padding-left: 15px;
+}
+
+.attraction__articles__writer-rating__star-image {
+  width: 24px;
+  height: 24px;
+}
+
+.attraction__articles__writer-rating__number {
+  font-size: 20px;
+  padding-left: 8px;
+}
+
+.attraction__articles__writer__button {
+  font-family: "Roboto Mono", monospace;
+  display: flex;
+  color: white;
+  font-size: 15px;
+  background-color: #303031;
+  width: 160px;
+  padding: 16px 24px;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  border-radius: 16px;
+  border: none;
+}
 /* Settings for the block "help" */
 
 .help {
@@ -555,6 +718,7 @@
 }
 
 .help__list-tasks__item {
+  height: 100%;
   font-family: "Roboto Mono", monospace;
   box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.1);
   border-radius: 16px;
@@ -563,7 +727,7 @@
 .help__list-tasks__item-block {
   display: flex;
   flex-direction: column;
-  gap: 16px;
+  gap: 26px;
   padding: 24px;
 }
 
@@ -578,11 +742,11 @@
   background-color: #71a894;
   color: white;
   display: inline-flex;
-  padding: 4px 8px;
+  padding: 4px 5px;
   align-items: center;
   gap: 10px;
   font-weight: 400;
-  font-size: 15px;
+  font-size: 13px;
   border-radius: 16px;
 }
 
@@ -595,16 +759,62 @@
 /* Setting for the block "starting" */
 
 .starting {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
   padding-top: 219px;
+  padding-left: 56px;
+  padding-right: 56px;
+}
+
+.starting__block-info {
+  display: flex;
+  flex-direction: column;
+  padding-top: 59px;
+  gap: 40px;
+}
+
+.starting__block-info__title {
+  font-family: "Gravitas One", serif;
+  font-size: 28px;
+}
+
+.starting__block-info__text {
+  line-height: 26px;
+}
+
+.starting__button {
+  display: flex;
+  flex-direction: row;
+  border-radius: 8px;
+  align-items: center;
+  border: none;
+  color: white;
+  font-size: 16px;
+  width: 177px;
+  height: 52px;
+  background-color: rgb(113, 168, 148);
+  padding: 20px 12px;
+}
+
+.starting__image {
+  width: 644px;
+  height: 361px;
+  flex-shrink: 0;
 }
 
 /* Settings for the block "footer" */
 
 .footer {
   display: flex;
-  gap: 666px;
+  gap: 614px;
   flex-direction: row;
   padding: 126px 56px 40px 56px;
+}
+
+.footer__logo {
+  font-size: 21px;
+  font-weight: 600;
 }
 
 .footer__navigation {
@@ -617,4 +827,17 @@
   gap: 40px;
   list-style: none;
   font-size: 20px;
+}
+
+.footer__navigation-list-item {
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: -0.4px;
+}
+
+.footer__navigation-list-item-special {
+  color: #71a894;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: -0.4px;
 }
